@@ -38,11 +38,9 @@ speechBtn.addEventListener("click", (e) => {
         if (!synth.speaking && !isSpeaking) {
           isSpeaking = true;
           speechBtn.innerText = "Convert To Speech";
-        } else {
-          alert("Error Occur...");
         }
       }, 500);
-      if (!isSpeaking) {
+      if (isSpeaking) {
         synth.resume();
         isSpeaking = false;
         speechBtn.innerText = "Pause Speech";
