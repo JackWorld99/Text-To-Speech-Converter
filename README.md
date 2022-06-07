@@ -10,7 +10,7 @@
 
 #### 🚨 SpeechSynthesis.getVoices()
 
-> _The getVoices() method of the SpeechSynthesis interface returns a list of SpeechSynthesisVoice objects representing ==**all the available voices on the current device**==._
+> _The getVoices() method of the SpeechSynthesis interface returns a list of SpeechSynthesisVoice objects representing **all the available voices on the current device**._
 
 ---
 
